@@ -1,0 +1,48 @@
+.stopwatch{
+    position: absolute;
+    top:6rem;
+    right:12rem;
+}
+.stopwatch-container{
+    border:2px solid #fff;
+    height: 90px;
+    width: 330px;
+    /* margin:5vh auto 0px auto; */
+    padding:0px 39px;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    color: black;
+    /* color:#fff; */
+    background-color: #fff;
+    border-radius: 7px;
+}
+button{
+    padding: 5px;
+    width: 55px;
+    align-items:center;
+    margin: 19px 25px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: 2px transparent;
+    border-radius: 5px;
+   
+}
+.start-btn{
+    background-color: green;
+    color: #fff;
+}
+.stop-btn{
+    background-color: red;
+    color: #fff;
+}
+.reset-btn{
+    background-color: blue;
+    color: #fff;
+}
+@media screen and (max-width: 1025px) and (min-width: 480px) {
+    .stopwatch{
+        display: block;
+        position: absolute;
+        top:36rem;
+        left:3rem;
+    }
+}

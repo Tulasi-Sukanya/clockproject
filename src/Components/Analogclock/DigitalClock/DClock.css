@@ -1,0 +1,22 @@
+/* /* .dclock{
+    width: 95vw;
+    height: 95vh;
+    overflow:hidden;
+} */
+
+.dclock h2{
+    border:2px solid #fff;
+    width: 300px;
+    margin:5vh auto 0px auto;
+    padding:10px 65px;
+    background-color: cornsilk;
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    color: black;
+    /* color:#fff;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 7px; */
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+} 

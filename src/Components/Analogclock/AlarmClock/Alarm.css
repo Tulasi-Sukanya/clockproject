@@ -1,0 +1,42 @@
+.alarm-container{
+    /* height: auto;
+    width: 350px; */
+    background-color: #fff;
+    border: 1px solid #fff;
+    padding: 20px 20px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+    position: absolute;
+    top:18rem;
+    right:10rem;
+}
+.digital-time{
+    font-weight: bold;
+    color: slateblue;
+}
+.alarm-msg{
+    color: brown;
+}
+form{
+    align-items: center;
+    font-weight: bold;
+    margin-left: 100px;
+}
+input{
+    border: 2px solid black;
+    font-weight: 900;
+    font-size: large;
+}
+
+@media screen and (max-width: 1025px) and (min-width: 480px) {
+    .alarm-container{
+        display: flex;
+        flex-direction: column;
+        max-width: 500px;
+        position: absolute;
+        top:46rem;
+        left:3rem;
+    }
+}
